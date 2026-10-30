@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+ 
+ body {
+     background: url('https://mcusercontent.com/56be0f219ac8955deed695579/images/892c6dc7-4325-1307-3f1a-8ba86af6dc5e.jpg') no-repeat center center fixed;
+     background-size: cover;
+     font-family: Arial, sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+ 
+
+ .container {
+     background: rgba(255, 255, 255, 0.4); 
+
+
+     padding: 2rem;
+
+
+
+     border-radius: 1rem;
+
+
+
+     min-height: 50vh;
+
+
+     width: 50vh;
+
+
+     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+
+
+     text-align: center;
+
+
+    
+     backdrop-filter: blur(15px);
+
+
+
+     border: 1px solid rgba(255, 255, 255, 0.3); 
+ }
+
+
+
+
+
+ 
+ 
+ form {
+     margin: 2rem 0 1rem 0;
+ }
+ 
+ form select,
+
+
+ button,
+
+
+ input {
+     width: 100%;
+     border: none;
+     outline: none;
+     border-radius: 0.75rem;
+ }
+ 
+
+ form input {
+     border: 1px solid rgba(255, 255, 255, 0.5);
+     font-size: 1rem;
+     height: 3rem;
+     padding-left: 0.75rem;
+     background-color: rgba(255, 255, 255, 0.3);
+     color: #000;
+ }
+ 
+
+
+
+
+ .dropdown {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 1.5rem;
+ }
+
+
+
+
+
+ 
+ .select-container img {
+     max-width: 2rem; 
+ }
+ 
+ 
+
+
+ .select-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 7rem;
+     border-radius: 0.5rem;
+     border: 1px solid rgba(255, 255, 255, 0.5);
+     padding: 5px;
+     background: rgba(255, 255, 255, 0.2); 
+
+
+ }
+ 
+
+
+
+ .select-container select {
+     font-size: 1rem;
+     width: auto;
+     background: transparent;
+     color: #000;
+ }
+ 
+ .msg {
+     margin: 1.5rem 0;
+     font-weight: bold;
+     color: #333;
+ }
+ 
+ form button {
+     height: 3rem;
+     background: rgba(106, 17, 203, 0.7); 
+     color: white;
+     font-size: 1.2rem;
+     font-weight: bold;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+     border: 1px solid rgba(255, 255, 255, 0.5);
+ }
+ 
+
+
+ 
+ form button:hover {
+     background: rgba(106, 17, 203, 0.9);
+     transform:scale(1.05);
+}
